@@ -6,7 +6,6 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.29.11
 	github.com/aws/aws-sdk-go-v2/credentials v1.17.64
 	github.com/aws/aws-sdk-go-v2/service/textract v1.35.1
-	github.com/davecgh/go-spew v1.1.1
 	github.com/fogleman/gg v1.3.0
 	github.com/go-chi/chi/v5 v5.2.1
 	github.com/go-chi/cors v1.2.1

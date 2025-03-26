@@ -10,7 +10,6 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/service/textract"
 	"github.com/aws/aws-sdk-go-v2/service/textract/types"
-	"github.com/davecgh/go-spew/spew"
 	"github.com/fogleman/gg"
 )
 
@@ -42,7 +41,7 @@ func (s *Server) extractText(ctx context.Context) ([]types.Block, error) {
 	for _, block := range result.Blocks {
 		if block.BlockType == "LINE" {
 			// fmt.Printf("text: %s\tconf: %d", *block.Text, *block.Confidence)
-			spew.Dump(block)
+			// spew.Dump(block)
 		}
 
 		if block.BlockType == "WORD" && block.Confidence != nil && *block.Confidence < 80.0 {
