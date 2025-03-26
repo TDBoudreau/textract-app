@@ -1,0 +1,470 @@
+(types.Block) {
+ BlockType: (types.BlockType) (len=4) "LINE",
+ ColumnIndex: (*int32)(<nil>),
+ ColumnSpan: (*int32)(<nil>),
+ Confidence: (*float32)(0xc00001366c)(98.22937),
+ EntityTypes: ([]types.EntityType) <nil>,
+ Geometry: (*types.Geometry)(0xc000452fc0)({
+  BoundingBox: (*types.BoundingBox)(0xc0001f83c0)({
+   Height: (float32) 0.048124928,
+   Left: (float32) 0.5007862,
+   Top: (float32) 0.23464718,
+   Width: (float32) 0.17333451,
+   noSmithyDocumentSerde: (document.NoSerde) {
+   }
+  }),
+  Polygon: ([]types.Point) (len=4 cap=4) {
+   (types.Point) {
+    X: (float32) 0.5007862,
+    Y: (float32) 0.23464718,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.6740122,
+    Y: (float32) 0.23475814,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.6741207,
+    Y: (float32) 0.2827721,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.5008929,
+    Y: (float32) 0.28266358,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   }
+  },
+  noSmithyDocumentSerde: (document.NoSerde) {
+  }
+ }),
+ Id: (*string)(0xc00019b3c0)((len=36) "a19a00c6-da39-4e9e-895d-99fad2f4786b"),
+ Page: (*int32)(<nil>),
+ Query: (*types.Query)(<nil>),
+ Relationships: ([]types.Relationship) (len=1 cap=1) {
+  (types.Relationship) {
+   Ids: ([]string) (len=3 cap=4) {
+    (string) (len=36) "0422fa6e-763d-4b1e-b4ba-0a6cb00c1eb3",
+    (string) (len=36) "2eee7807-ee45-4289-bcf8-a13a8eff0a6b",
+    (string) (len=36) "55aff833-7d6b-41b4-8b15-2fddef4f49ba"
+   },
+   Type: (types.RelationshipType) (len=5) "CHILD",
+   noSmithyDocumentSerde: (document.NoSerde) {
+   }
+  }
+ },
+ RowIndex: (*int32)(<nil>),
+ RowSpan: (*int32)(<nil>),
+ SelectionStatus: (types.SelectionStatus) "",
+ Text: (*string)(0xc00019b3b0)((len=14) "Steven P. Jobs"),
+ TextType: (types.TextType) "",
+ noSmithyDocumentSerde: (document.NoSerde) {
+ }
+}
+(types.Block) {
+ BlockType: (types.BlockType) (len=4) "LINE",
+ ColumnIndex: (*int32)(<nil>),
+ ColumnSpan: (*int32)(<nil>),
+ Confidence: (*float32)(0xc0000136bc)(99.84887),
+ EntityTypes: ([]types.EntityType) <nil>,
+ Geometry: (*types.Geometry)(0xc0004530b0)({
+  BoundingBox: (*types.BoundingBox)(0xc0001f83f0)({
+   Height: (float32) 0.05247419,
+   Left: (float32) 0.50234705,
+   Top: (float32) 0.28309083,
+   Width: (float32) 0.26797175,
+   noSmithyDocumentSerde: (document.NoSerde) {
+   }
+  }),
+  Polygon: ([]types.Point) (len=4 cap=4) {
+   (types.Point) {
+    X: (float32) 0.50234705,
+    Y: (float32) 0.28309083,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.7701995,
+    Y: (float32) 0.28325862,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.77031875,
+    Y: (float32) 0.33556503,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.5024633,
+    Y: (float32) 0.3354013,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   }
+  },
+  noSmithyDocumentSerde: (document.NoSerde) {
+  }
+ }),
+ Id: (*string)(0xc00019b410)((len=36) "7b4c0f4e-67d6-4eef-a90f-8495d02a7bcc"),
+ Page: (*int32)(<nil>),
+ Query: (*types.Query)(<nil>),
+ Relationships: ([]types.Relationship) (len=1 cap=1) {
+  (types.Relationship) {
+   Ids: ([]string) (len=4 cap=4) {
+    (string) (len=36) "aa0d8007-d52b-46a1-9c1d-ba38cedc4b47",
+    (string) (len=36) "8bb27880-bd08-4a96-a622-1807868f2f7e",
+    (string) (len=36) "458ed354-9e41-4cda-9535-b9601c56566f",
+    (string) (len=36) "8083ae4f-2eb1-4195-bc81-ba97e101827c"
+   },
+   Type: (types.RelationshipType) (len=5) "CHILD",
+   noSmithyDocumentSerde: (document.NoSerde) {
+   }
+  }
+ },
+ RowIndex: (*int32)(<nil>),
+ RowSpan: (*int32)(<nil>),
+ SelectionStatus: (types.SelectionStatus) "",
+ Text: (*string)(0xc00019b400)((len=21) "Chairman of the Board"),
+ TextType: (types.TextType) "",
+ noSmithyDocumentSerde: (document.NoSerde) {
+ }
+}
+(types.Block) {
+ BlockType: (types.BlockType) (len=4) "LINE",
+ ColumnIndex: (*int32)(<nil>),
+ ColumnSpan: (*int32)(<nil>),
+ Confidence: (*float32)(0xc00001370c)(50.337273),
+ EntityTypes: ([]types.EntityType) <nil>,
+ Geometry: (*types.Geometry)(0xc0004530e0)({
+  BoundingBox: (*types.BoundingBox)(0xc0001f8438)({
+   Height: (float32) 0.02428659,
+   Left: (float32) 0.29632786,
+   Top: (float32) 0.35589236,
+   Width: (float32) 0.013612681,
+   noSmithyDocumentSerde: (document.NoSerde) {
+   }
+  }),
+  Polygon: ([]types.Point) (len=4 cap=4) {
+   (types.Point) {
+    X: (float32) 0.29632786,
+    Y: (float32) 0.35589236,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.30988762,
+    Y: (float32) 0.3559006,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.30994052,
+    Y: (float32) 0.38017896,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.2963807,
+    Y: (float32) 0.38017085,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   }
+  },
+  noSmithyDocumentSerde: (document.NoSerde) {
+  }
+ }),
+ Id: (*string)(0xc00019b460)((len=36) "b9fdb97f-1a70-4c61-8008-6209e966a086"),
+ Page: (*int32)(<nil>),
+ Query: (*types.Query)(<nil>),
+ Relationships: ([]types.Relationship) (len=1 cap=1) {
+  (types.Relationship) {
+   Ids: ([]string) (len=1 cap=1) {
+    (string) (len=36) "5fbe76cf-dabd-49d5-b5e7-44489d9dc207"
+   },
+   Type: (types.RelationshipType) (len=5) "CHILD",
+   noSmithyDocumentSerde: (document.NoSerde) {
+   }
+  }
+ },
+ RowIndex: (*int32)(<nil>),
+ RowSpan: (*int32)(<nil>),
+ SelectionStatus: (types.SelectionStatus) "",
+ Text: (*string)(0xc00019b4f0)((len=1) "R"),
+ TextType: (types.TextType) "",
+ noSmithyDocumentSerde: (document.NoSerde) {
+ }
+}
+(types.Block) {
+ BlockType: (types.BlockType) (len=4) "LINE",
+ ColumnIndex: (*int32)(<nil>),
+ ColumnSpan: (*int32)(<nil>),
+ Confidence: (*float32)(0xc00001375c)(98.45948),
+ EntityTypes: ([]types.EntityType) <nil>,
+ Geometry: (*types.Geometry)(0xc000453170)({
+  BoundingBox: (*types.BoundingBox)(0xc0001f8450)({
+   Height: (float32) 0.051361665,
+   Left: (float32) 0.499812,
+   Top: (float32) 0.55476254,
+   Width: (float32) 0.2666389,
+   noSmithyDocumentSerde: (document.NoSerde) {
+   }
+  }),
+  Polygon: ([]types.Point) (len=4 cap=4) {
+   (types.Point) {
+    X: (float32) 0.499812,
+    Y: (float32) 0.55476254,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.7663342,
+    Y: (float32) 0.5549084,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.76645094,
+    Y: (float32) 0.60612416,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.4999258,
+    Y: (float32) 0.60598224,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   }
+  },
+  noSmithyDocumentSerde: (document.NoSerde) {
+  }
+ }),
+ Id: (*string)(0xc00019b560)((len=36) "2eb00437-1f73-41b9-9d81-7b285d739f40"),
+ Page: (*int32)(<nil>),
+ Query: (*types.Query)(<nil>),
+ Relationships: ([]types.Relationship) (len=1 cap=1) {
+  (types.Relationship) {
+   Ids: ([]string) (len=3 cap=4) {
+    (string) (len=36) "df8bc891-d696-45a0-8840-641ad42537e5",
+    (string) (len=36) "0d18c1fb-db21-4bfa-8850-a35f7a9bc5c1",
+    (string) (len=36) "8293df95-341b-4296-bc4f-cd570f39d336"
+   },
+   Type: (types.RelationshipType) (len=5) "CHILD",
+   noSmithyDocumentSerde: (document.NoSerde) {
+   }
+  }
+ },
+ RowIndex: (*int32)(<nil>),
+ RowSpan: (*int32)(<nil>),
+ SelectionStatus: (types.SelectionStatus) "",
+ Text: (*string)(0xc00019b510)((len=20) "Apple Computer, Inc."),
+ TextType: (types.TextType) "",
+ noSmithyDocumentSerde: (document.NoSerde) {
+ }
+}
+(types.Block) {
+ BlockType: (types.BlockType) (len=4) "LINE",
+ ColumnIndex: (*int32)(<nil>),
+ ColumnSpan: (*int32)(<nil>),
+ Confidence: (*float32)(0xc0000137ac)(88.441216),
+ EntityTypes: ([]types.EntityType) <nil>,
+ Geometry: (*types.Geometry)(0xc000453200)({
+  BoundingBox: (*types.BoundingBox)(0xc0001f8480)({
+   Height: (float32) 0.044693794,
+   Left: (float32) 0.5022819,
+   Top: (float32) 0.60785156,
+   Width: (float32) 0.35851684,
+   noSmithyDocumentSerde: (document.NoSerde) {
+   }
+  }),
+  Polygon: ([]types.Point) (len=4 cap=4) {
+   (types.Point) {
+    X: (float32) 0.5022819,
+    Y: (float32) 0.60785156,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.8606963,
+    Y: (float32) 0.60804224,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.8607987,
+    Y: (float32) 0.6525454,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.5023808,
+    Y: (float32) 0.65235937,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   }
+  },
+  noSmithyDocumentSerde: (document.NoSerde) {
+  }
+ }),
+ Id: (*string)(0xc00019b5d0)((len=36) "33a27a9c-20d5-462f-8901-7dcb46aa3ed3"),
+ Page: (*int32)(<nil>),
+ Query: (*types.Query)(<nil>),
+ Relationships: ([]types.Relationship) (len=1 cap=1) {
+  (types.Relationship) {
+   Ids: ([]string) (len=5 cap=8) {
+    (string) (len=36) "6f363c45-8504-4ef0-a2e1-81bbb32ecc4d",
+    (string) (len=36) "d6a538fd-d4c2-485d-8719-1859c77d80b5",
+    (string) (len=36) "c4a2e776-787e-49ea-bef7-42368a4bc1ac",
+    (string) (len=36) "a54e7e6f-5f1a-48db-84e9-a271926ce540",
+    (string) (len=36) "60323f8a-a3d4-4726-b833-4e1450dfe57d"
+   },
+   Type: (types.RelationshipType) (len=5) "CHILD",
+   noSmithyDocumentSerde: (document.NoSerde) {
+   }
+  }
+ },
+ RowIndex: (*int32)(<nil>),
+ RowSpan: (*int32)(<nil>),
+ SelectionStatus: (types.SelectionStatus) "",
+ Text: (*string)(0xc00019b5c0)((len=28) "20525 Mariani Avenue, MS. 3K"),
+ TextType: (types.TextType) "",
+ noSmithyDocumentSerde: (document.NoSerde) {
+ }
+}
+(types.Block) {
+ BlockType: (types.BlockType) (len=4) "LINE",
+ ColumnIndex: (*int32)(<nil>),
+ ColumnSpan: (*int32)(<nil>),
+ Confidence: (*float32)(0xc0000137fc)(92.01902),
+ EntityTypes: ([]types.EntityType) <nil>,
+ Geometry: (*types.Geometry)(0xc000453290)({
+  BoundingBox: (*types.BoundingBox)(0xc0001f84b0)({
+   Height: (float32) 0.050740417,
+   Left: (float32) 0.5020761,
+   Top: (float32) 0.6582021,
+   Width: (float32) 0.32539657,
+   noSmithyDocumentSerde: (document.NoSerde) {
+   }
+  }),
+  Polygon: ([]types.Point) (len=4 cap=4) {
+   (types.Point) {
+    X: (float32) 0.5020761,
+    Y: (float32) 0.6582021,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.8273567,
+    Y: (float32) 0.6583704,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.8274726,
+    Y: (float32) 0.70894253,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.50218844,
+    Y: (float32) 0.70877904,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   }
+  },
+  noSmithyDocumentSerde: (document.NoSerde) {
+  }
+ }),
+ Id: (*string)(0xc00019b5f0)((len=36) "1fbca383-966f-493c-829a-8e8a1dec1eb4"),
+ Page: (*int32)(<nil>),
+ Query: (*types.Query)(<nil>),
+ Relationships: ([]types.Relationship) (len=1 cap=1) {
+  (types.Relationship) {
+   Ids: ([]string) (len=3 cap=4) {
+    (string) (len=36) "6ee64303-75b8-43bf-a2c0-4f68baa8d2c2",
+    (string) (len=36) "9fbc92b6-e82e-41ad-9d7c-ae51186dc3bc",
+    (string) (len=36) "82038cee-af23-4e07-b06f-f212b6d267c2"
+   },
+   Type: (types.RelationshipType) (len=5) "CHILD",
+   noSmithyDocumentSerde: (document.NoSerde) {
+   }
+  }
+ },
+ RowIndex: (*int32)(<nil>),
+ RowSpan: (*int32)(<nil>),
+ SelectionStatus: (types.SelectionStatus) "",
+ Text: (*string)(0xc00019b610)((len=27) "Cupertino, California 95014"),
+ TextType: (types.TextType) "",
+ noSmithyDocumentSerde: (document.NoSerde) {
+ }
+}
+(types.Block) {
+ BlockType: (types.BlockType) (len=4) "LINE",
+ ColumnIndex: (*int32)(<nil>),
+ ColumnSpan: (*int32)(<nil>),
+ Confidence: (*float32)(0xc00001384c)(74.48795),
+ EntityTypes: ([]types.EntityType) <nil>,
+ Geometry: (*types.Geometry)(0xc000453320)({
+  BoundingBox: (*types.BoundingBox)(0xc0001f84e0)({
+   Height: (float32) 0.044505753,
+   Left: (float32) 0.50235677,
+   Top: (float32) 0.71033424,
+   Width: (float32) 0.32147917,
+   noSmithyDocumentSerde: (document.NoSerde) {
+   }
+  }),
+  Polygon: ([]types.Point) (len=4 cap=4) {
+   (types.Point) {
+    X: (float32) 0.50235677,
+    Y: (float32) 0.71033424,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.8237343,
+    Y: (float32) 0.71049565,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.8238359,
+    Y: (float32) 0.75484,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   },
+   (types.Point) {
+    X: (float32) 0.5024553,
+    Y: (float32) 0.7546828,
+    noSmithyDocumentSerde: (document.NoSerde) {
+    }
+   }
+  },
+  noSmithyDocumentSerde: (document.NoSerde) {
+  }
+ }),
+ Id: (*string)(0xc00019b640)((len=36) "cef2baff-8f86-44c9-9974-273882622fff"),
+ Page: (*int32)(<nil>),
+ Query: (*types.Query)(<nil>),
+ Relationships: ([]types.Relationship) (len=1 cap=1) {
+  (types.Relationship) {
+   Ids: ([]string) (len=3 cap=4) {
+    (string) (len=36) "1a6ad289-c216-4f89-892c-a117eb368fee",
+    (string) (len=36) "4d0411ac-e2e6-4a61-9316-3aac5fe12a69",
+    (string) (len=36) "3bfcae03-6a94-4345-80e4-deb1c85635fe"
+   },
+   Type: (types.RelationshipType) (len=5) "CHILD",
+   noSmithyDocumentSerde: (document.NoSerde) {
+   }
+  }
+ },
+ RowIndex: (*int32)(<nil>),
+ RowSpan: (*int32)(<nil>),
+ SelectionStatus: (types.SelectionStatus) "",
+ Text: (*string)(0xc00019b620)((len=24) "408 973 2121 or 996-1010"),
+ TextType: (types.TextType) "",
+ noSmithyDocumentSerde: (document.NoSerde) {
+ }
+}

@@ -1,8 +1,7 @@
 package server
 
 import (
-	"encoding/json"
-	"log"
+	"context"
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
@@ -26,22 +25,44 @@ func (s *Server) RegisterRoutes() http.Handler {
 
 	r.Get("/health", s.healthHandler)
 
+	r.Get("/textract", s.textractHandler)
+
 	return r
 }
 
 func (s *Server) HelloWorldHandler(w http.ResponseWriter, r *http.Request) {
-	resp := make(map[string]string)
-	resp["message"] = "Hello World"
-
-	jsonResp, err := json.Marshal(resp)
-	if err != nil {
-		log.Fatalf("error handling JSON marshal. Err: %v", err)
+	resp := jsonResponse{
+		Message: "Hello World",
 	}
 
-	_, _ = w.Write(jsonResp)
+	s.writeJSON(w, http.StatusAccepted, resp)
 }
 
 func (s *Server) healthHandler(w http.ResponseWriter, r *http.Request) {
-	jsonResp, _ := json.Marshal(s.db.Health())
-	_, _ = w.Write(jsonResp)
+	health := s.db.Health()
+	healthErr, _ := health["error"]
+	healthMessage, _ := health["message"]
+
+	resp := jsonResponse{
+		Error:   healthErr != "",
+		Message: healthMessage,
+		Data:    health,
+	}
+
+	s.writeJSON(w, http.StatusAccepted, resp)
+}
+
+func (s *Server) textractHandler(w http.ResponseWriter, r *http.Request) {
+	ctx := context.Background()
+	blocks, err := s.extractText(ctx)
+	if err != nil {
+		s.errorJSON(w, err, http.StatusBadRequest)
+	}
+
+	resp := jsonResponse{
+		Message: "Extracted text successfully!",
+		Data:    blocks,
+	}
+
+	s.writeJSON(w, http.StatusAccepted, resp)
 }
